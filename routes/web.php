@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//codice aggiunto da Andrea Bizzarra
+Route::get('/home', function () {
+    return view('home');
+});
+
+
